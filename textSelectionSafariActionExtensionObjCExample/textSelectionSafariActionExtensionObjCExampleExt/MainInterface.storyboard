@@ -1,0 +1,78 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="6205" systemVersion="13E28" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" initialViewController="ydi-Js-W1E">
+    <dependencies>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="6198"/>
+    </dependencies>
+    <scenes>
+        <!--Search-->
+        <scene sceneID="JLR-zH-7Yi">
+            <objects>
+                <viewController title="Search" id="ydi-Js-W1E" customClass="ActionViewController" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="PIw-Vx-Z7u"/>
+                        <viewControllerLayoutGuide type="bottom" id="ZrZ-mm-X1N"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="Ix1-fW-636">
+                        <rect key="frame" x="0.0" y="0.0" width="320" height="528"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <navigationBar contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="DMh-lh-mcO">
+                                <rect key="frame" x="0.0" y="20" width="320" height="44"/>
+                                <items>
+                                    <navigationItem id="TvT-GH-7sR">
+                                        <barButtonItem key="leftBarButtonItem" title="Done" style="done" id="Zyb-B8-m6q">
+                                            <connections>
+                                                <action selector="done" destination="ydi-Js-W1E" id="uvI-nI-ULO"/>
+                                            </connections>
+                                        </barButtonItem>
+                                    </navigationItem>
+                                </items>
+                            </navigationBar>
+                            <textField opaque="NO" clipsSubviews="YES" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="0fz-uN-Dsk">
+                                <rect key="frame" x="41" y="81" width="151" height="30"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                                <textInputTraits key="textInputTraits"/>
+                            </textField>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="8fA-QS-qdY">
+                                <rect key="frame" x="238" y="81" width="48" height="30"/>
+                                <state key="normal" title="Search">
+                                    <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
+                                </state>
+                                <connections>
+                                    <action selector="searchButtonTapped:" destination="ydi-Js-W1E" eventType="touchUpInside" id="KeJ-bs-odh"/>
+                                </connections>
+                            </button>
+                            <webView contentMode="scaleToFill" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="tWz-MB-RHJ">
+                                <rect key="frame" x="20" y="136" width="280" height="392"/>
+                                <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                            </webView>
+                        </subviews>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                        <constraints>
+                            <constraint firstItem="DMh-lh-mcO" firstAttribute="top" secondItem="PIw-Vx-Z7u" secondAttribute="bottom" id="KCa-uW-zQ1"/>
+                            <constraint firstAttribute="trailing" secondItem="DMh-lh-mcO" secondAttribute="trailing" id="kgf-QZ-z9e"/>
+                            <constraint firstItem="DMh-lh-mcO" firstAttribute="leading" secondItem="Ix1-fW-636" secondAttribute="leading" id="mB7-Ld-VVy"/>
+                        </constraints>
+                    </view>
+                    <freeformSimulatedSizeMetrics key="simulatedDestinationMetrics"/>
+                    <size key="freeformSize" width="320" height="528"/>
+                    <connections>
+                        <outlet property="searchButton" destination="8fA-QS-qdY" id="yAQ-6z-gBj"/>
+                        <outlet property="searchTextField" destination="0fz-uN-Dsk" id="w8k-Qh-C9Y"/>
+                        <outlet property="webView" destination="tWz-MB-RHJ" id="jie-ZN-5Va"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="n8B-Ws-JVt" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="387" y="-210"/>
+        </scene>
+    </scenes>
+    <simulatedMetricsContainer key="defaultSimulatedMetrics">
+        <simulatedStatusBarMetrics key="statusBar"/>
+        <simulatedOrientationMetrics key="orientation"/>
+        <simulatedScreenMetrics key="destination" type="retina4">
+            <size key="portraitSize" width="320" height="568"/>
+            <size key="landscapeSize" width="568" height="320"/>
+        </simulatedScreenMetrics>
+    </simulatedMetricsContainer>
+</document>

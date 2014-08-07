@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>IDESourceControlProjectFavoriteDictionaryKey</key>
+	<false/>
+	<key>IDESourceControlProjectIdentifier</key>
+	<string>594A189C-065D-48C1-9F8E-78874E340EE5</string>
+	<key>IDESourceControlProjectName</key>
+	<string>textSelectionSafariActionExtensionSwiftExample</string>
+	<key>IDESourceControlProjectOriginsDictionary</key>
+	<dict>
+		<key>47473CB4A13FA4B0F84E6B21D7A867820F03E463</key>
+		<string>https://github.com/jazgarewal/textSelectionSafariActionExtensionExample</string>
+	</dict>
+	<key>IDESourceControlProjectPath</key>
+	<string>textSelectionSafariActionExtensionSwiftExample/textSelectionSafariActionExtensionSwiftExample.xcodeproj</string>
+	<key>IDESourceControlProjectRelativeInstallPathDictionary</key>
+	<dict>
+		<key>47473CB4A13FA4B0F84E6B21D7A867820F03E463</key>
+		<string>../../..</string>
+	</dict>
+	<key>IDESourceControlProjectURL</key>
+	<string>https://github.com/jazgarewal/textSelectionSafariActionExtensionExample</string>
+	<key>IDESourceControlProjectVersion</key>
+	<integer>111</integer>
+	<key>IDESourceControlProjectWCCIdentifier</key>
+	<string>47473CB4A13FA4B0F84E6B21D7A867820F03E463</string>
+	<key>IDESourceControlProjectWCConfigurations</key>
+	<array>
+		<dict>
+			<key>IDESourceControlRepositoryExtensionIdentifierKey</key>
+			<string>public.vcs.git</string>
+			<key>IDESourceControlWCCIdentifierKey</key>
+			<string>47473CB4A13FA4B0F84E6B21D7A867820F03E463</string>
+			<key>IDESourceControlWCCName</key>
+			<string>textSelectionSafariActionExtensionExample</string>
+		</dict>
+	</array>
+</dict>
+</plist>
